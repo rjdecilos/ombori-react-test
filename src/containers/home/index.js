@@ -67,7 +67,7 @@ const Home = (props) => {
         props.fetchMoreUsers();
     }} }
     hasMore={!props.noUsersToLoad}
-    loader={<div className="loader" key={0}>Loading ...</div>}
+    loader={<div className={classes.root} key={0}>Loading ...</div>}
     ><div className={classes.root}>
     
     <div className={classes.header}>
